@@ -1,0 +1,56 @@
+Detyra: Analizuesi i Shpenzimeve Mujore
+Të krijohet një program interaktiv në Java që i mundëson
+përdoruesit të llogarisë dhe analizojë shpenzimet mujore
+personale.
+Përshkrimi i detyrës:
+Programi duhet të funksionojë në këtë mënyrë:
+1. Në fillim, programi pyet përdoruesin:
+   Dëshiron të analizosh shpenzimet? (po/jo)
+   - Pranohet çdo kombinim i shkronjave
+        (“po”, “Po”, “JO”, “jO”, etj.).
+   - Nëse përgjigjja është “jo”, programi ndalet.
+   - Nëse përgjigjja është “po”, vazhdohet me hapat në vijim.
+2. Përdoruesi vendos:
+   Sa ditë dëshiron të regjistrosh shpenzime?
+   - Programi merr një numër (p.sh. 7 për një javë, ose 30 për një muaj).
+3. Më pas, për secilën ditë, programi pyet:
+   Vendos shpenzimet për ditën 1:
+   Vendos shpenzimet për ditën 2:
+   ...
+4. Pasi të vendosen të gjitha vlerat, programi duhet të llogarisë dhe të shfaqë:
+   - Totali i shpenzimeve mujore
+   - Mesatarja ditore
+   - Shpenzimi maksimal
+   - Shpenzimi minimal
+
+   Shembull:
+   Totali: 756.50 €
+   Mesatarja ditore: 25.22 €
+   Shpenzimi maksimal: 52.30 €
+   Shpenzimi minimal: 10.00 €
+
+5. Në fund, programi pyet përsëri nëse përdoruesi dëshiron të analizojë muaj tjetër:
+   Dëshiron të analizosh përsëri? (po/jo)
+   - Nëse përgjigjja është “po”, procesi rifillon.
+   - Nëse “jo”, shfaqet mesazhi:
+     Programi përfundoi. Faleminderit!
+
+
+Shembull ekzekutimi:
+
+Dëshiron të analizosh shpenzimet? (po/jo)
+po
+Sa ditë dëshiron të regjistrosh shpenzime?
+3
+Vendos shpenzimet për ditën 1: 25.5
+Vendos shpenzimet për ditën 2: 40
+Vendos shpenzimet për ditën 3: 15
+
+Totali: 130.5 €
+Mesatarja ditore: 26.1 €
+Shpenzimi maksimal: 40.0 €
+Shpenzimi minimal: 15.0 €
+
+Dëshiron të analizosh përsëri? (po/jo)
+jo
+Programi përfundoi. Faleminderit!

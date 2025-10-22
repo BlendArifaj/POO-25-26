@@ -1,0 +1,61 @@
+Detyra: Analizuesi i Temperaturës Ditore
+
+Qëllimi:
+Të krijohet një program interaktiv në Java që merr nga përdoruesi disa të dhëna për temperaturat ditore dhe llogarit statistikat kryesore.
+
+Përshkrimi i detyrës:
+Programi duhet të funksionojë në këtë mënyrë:
+
+1. Në fillim, programi pyet përdoruesin:
+   Dëshiron të analizosh temperaturat ditore? (po/jo)
+   - Pranohet çdo kombinim shkronjash (“po”, “Po”, “JO”, “jO”, etj.).
+   - Nëse përgjigjja është “jo”, programi ndalet.
+   - Nëse “po”, vazhdohet me hapat vijues.
+
+2. Përdoruesi vendos:
+   Sa ditë dëshiron të regjistrosh? (minimum 2)
+   - Programi merr një numër të plotë (p.sh. 3 ose 5).
+
+3. Programi pyet për secilën ditë:
+   Vendos temperaturën për ditën 1:
+   Vendos temperaturën për ditën 2:
+   Vendos temperaturën për ditën 3:
+   ...
+   (të gjitha ruhen përkohësisht duke mbajtur totalin, maksimumin dhe minimumin gjatë inputit — pa përdorur array)
+
+4. Pas vendosjes së të gjitha vlerave, programi duhet të shfaqë:
+   - Totali i temperaturave (shuma)
+   - Mesatarja
+   - Temperatura më e lartë
+   - Temperatura më e ulët
+
+   Shembull:
+   Totali: 72.5
+   Mesatarja: 24.17
+   Temperatura më e lartë: 27.0
+   Temperatura më e ulët: 21.5
+
+5. Pas përfundimit, programi pyet:
+   Dëshiron të analizosh përsëri? (po/jo)
+   - Nëse “po” → rifillon procesi.
+   - Nëse “jo” → shfaqet mesazhi:
+     Programi përfundoi. Faleminderit!
+
+Shembull ekzekutimi:
+
+Dëshiron të analizosh temperaturat ditore? (po/jo)
+po
+Sa ditë dëshiron të regjistrosh?
+3
+Vendos temperaturën për ditën 1: 22.5
+Vendos temperaturën për ditën 2: 24.0
+Vendos temperaturën për ditën 3: 26.0
+
+Totali: 72.5
+Mesatarja: 24.17
+Temperatura më e lartë: 26.0
+Temperatura më e ulët: 22.5
+
+Dëshiron të analizosh përsëri? (po/jo)
+jo
+Programi përfundoi. Faleminderit!

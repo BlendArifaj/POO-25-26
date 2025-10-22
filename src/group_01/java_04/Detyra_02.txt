@@ -1,0 +1,72 @@
+Detyra: Gjurmuësi i Leximit të Librave
+
+Qëllimi:
+Të krijohet një program interaktiv në Java që i ndihmon përdoruesit të gjurmojë leximin e librave dhe të analizojë progresin e tij.
+
+Përshkrimi i detyrës:
+Programi duhet të funksionojë në këtë mënyrë:
+
+1. Në fillim, programi pyet përdoruesin:
+   Dëshiron të gjurmosh leximin tënd? (po/jo)
+   - Pranohet çdo formë shkronjash (“po”, “Po”, “JO”, “jO”, etj.).
+   - Nëse përgjigjja është “jo”, programi ndalon.
+   - Nëse “po”, vazhdohet me hapat e mëposhtëm.
+
+2. Përdoruesi vendos:
+   Sa libra dëshiron të regjistrosh?
+   - Programi merr një numër (p.sh. 4).
+
+3. Për çdo libër, programi pyet:
+   Vendos emrin e librit:
+   Vendos numrin e faqeve të lexuara:
+   Vendos numrin total të faqeve në libër:
+
+   (Programi mund të llogarisë përqindjen e leximit për secilin libër.)
+
+4. Pas vendosjes së të gjitha të dhënave, programi duhet të shfaqë:
+   - Totali i faqeve të lexuara
+   - Totali i faqeve të përgjithshme
+   - Mesatarja e përqindjes së leximit
+   - Libri me përqindjen më të lartë të leximit
+   - Libri me përqindjen më të ulët të leximit
+
+   Shembull:
+   Totali i faqeve të lexuara: 860
+   Totali i faqeve gjithsej: 1200
+   Mesatarja e përqindjes së leximit: 71.67%
+   Libri me progresin më të lartë: "Clean Code" (100%)
+   Libri me progresin më të ulët: "Effective Java" (40%)
+
+5. Pas përfundimit, programi pyet:
+   Dëshiron të shtosh më shumë libra? (po/jo)
+   - Nëse “po” → rifillon procesi.
+   - Nëse “jo” → shfaqet mesazhi:
+     Programi përfundoi. Lexim të mbarë!
+
+Shembull ekzekutimi:
+
+Dëshiron të gjurmosh leximin tënd? (po/jo)
+po
+Sa libra dëshiron të regjistrosh?
+3
+Vendos emrin e librit: Java Basics
+Vendos numrin e faqeve të lexuara: 120
+Vendos numrin total të faqeve në libër: 200
+
+Vendos emrin e librit: Clean Code
+Vendos numrin e faqeve të lexuara: 400
+Vendos numrin total të faqeve në libër: 400
+
+Vendos emrin e librit: Effective Java
+Vendos numrin e faqeve të lexuara: 340
+Vendos numrin total të faqeve në libër: 600
+
+Totali i faqeve të lexuara: 860
+Totali i faqeve gjithsej: 1200
+Mesatarja e përqindjes së leximit: 71.67%
+Libri me progresin më të lartë: "Clean Code" (100%)
+Libri me progresin më të ulët: "Effective Java" (56.67%)
+
+Dëshiron të shtosh më shumë libra? (po/jo)
+jo
+Programi përfundoi. Lexim të mbarë!

@@ -1,0 +1,47 @@
+Detyra: Planifikuesi i Kursimeve
+
+Qëllimi:
+Të krijohet një program interaktiv në Java që i ndihmon përdoruesit të planifikojë kursimet mujore për të arritur një qëllim financiar.
+
+Përshkrimi i detyrës:
+Programi duhet të funksionojë në këtë mënyrë:
+
+1. Në fillim, programi pyet përdoruesin:
+   Dëshiron të fillosh planifikimin e kursimeve? (po/jo)
+   - Përdoruesi mund të shkruajë “po”, “Po”, “JO”, etj.
+   - Nëse përgjigjja është “jo”, programi ndalon menjëherë.
+   - Nëse “po”, programi vazhdon me hapat në vijim.
+
+2. Përdoruesi vendos:
+   - Qëllimin financiar (shumën që dëshiron të arrijë, p.sh. 2000 €)
+   - Numrin e muajve që planifikon të kursejë (p.sh. 6 muaj)
+
+3. Programi pastaj pyet për shumën e kursyer në secilin muaj:
+   Vendos kursimet për muajin 1:
+   Vendos kursimet për muajin 2:
+   ...
+
+4. Pas vendosjes së të gjitha vlerave, programi duhet të llogarisë dhe të shfaqë:
+   - Totali i kursimeve
+   - Mesatarja mujore
+   - Kursimi maksimal
+   - Kursimi minimal
+   - Sa mungon për të arritur qëllimin (nëse totali është më i vogël se qëllimi)
+   - Ose një mesazh motivues nëse qëllimi është arritur ose tejkaluar
+
+   Shembull:
+   Totali i kursimeve: 1850.00 €
+   Mesatarja mujore: 308.33 €
+   Kursimi maksimal: 400.00 €
+   Kursimi minimal: 250.00 €
+   Ju mungojnë edhe 150.00 € për të arritur qëllimin tuaj!
+
+5. Pas përfundimit, programi pyet:
+   Dëshiron të planifikosh përsëri? (po/jo)
+   - Nëse “po” → procesi rifillon.
+   - Nëse “jo” → shfaqet mesazhi:
+     Programi përfundoi. Faleminderit për pjesëmarrjen!
+
+Shembull ekzekutimi:
+
+Dëshiron të fillos

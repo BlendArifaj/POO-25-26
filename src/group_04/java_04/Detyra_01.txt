@@ -1,0 +1,60 @@
+Detyra: Gjurmuësi i Aktivitetit Ditor (Fitness Tracker)
+Të krijohet një program interaktiv në Java që i mundëson përdoruesit të analizojë
+aktivitetin fizik për disa ditë dhe të gjenerojë statistika për performancën e tij.
+
+Përshkrimi i detyrës:
+Programi duhet të funksionojë në këtë mënyrë:
+
+1. Në fillim, programi pyet përdoruesin:
+   Dëshiron të analizosh aktivitetin tënd ditor? (po/jo)
+   - Pranohet çdo kombinim shkronjash (“po”, “Po”, “JO”, “jO”, etj.).
+   - Nëse përgjigjja është “jo”, programi ndalet.
+   - Nëse “po”, vazhdohet me hapat vijues.
+
+2. Përdoruesi vendos:
+   Për sa ditë dëshiron të analizosh aktivitetin?
+   - Programi merr një numër (p.sh. 7 për një javë).
+
+3. Për çdo ditë, programi pyet përdoruesin:
+   Vendos numrin e hapave të bërë për ditën 1:
+   Vendos numrin e hapave të bërë për ditën 2:
+   ...
+   (të gjitha vlerat ruhen për llogaritje)
+
+4. Pas vendosjes së të gjitha të dhënave, programi duhet të shfaqë:
+   - Totali i hapave
+   - Mesatarja ditore
+   - Numri maksimal i hapave në një ditë
+   - Numri minimal i hapave në një ditë
+   - Një mesazh motivues:
+     - Nëse mesatarja është > 10000 → “Shkëlqyeshëm! Po ecën drejt shëndetit.”
+     - Nëse mesatarja është 5000–10000 → “Mirë! Mund të përmirësohesh më tej.”
+     - Nëse mesatarja < 5000 → “Duhet më shumë lëvizje!”
+
+5. Pas përfundimit, programi pyet:
+   Dëshiron të analizosh një javë tjetër? (po/jo)
+   - Nëse “po” → rifillon procesi.
+   - Nëse “jo” → shfaqet mesazhi:
+     Programi përfundoi. Vazhdoni të qëndroni aktiv!
+
+
+Shembull ekzekutimi:
+
+Dëshiron të analizosh aktivitetin tënd ditor? (po/jo)
+po
+Për sa ditë dëshiron të analizosh aktivitetin?
+5
+Vendos numrin e hapave të bërë për ditën 1: 8500
+Vendos numrin e hapave të bërë për ditën 2: 12000
+Vendos numrin e hapave të bërë për ditën 3: 9400
+Vendos numrin e hapave të bërë për ditën 4: 10100
+Vendos numrin e hapave të bërë për ditën 5: 8700
+
+Totali i hapave: 48700
+Mesatarja ditore: 9740
+Numri maksimal i hapave: 12000
+Numri minimal i hapave: 8500
+
+Dëshiron të analizosh një javë tjetër? (po/jo)
+jo
+Programi përfundoi. Vazhdoni të qëndroni aktiv!

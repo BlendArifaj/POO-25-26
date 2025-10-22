@@ -1,0 +1,53 @@
+Detyra: Llogarite Statistikat e Notave
+Të krijohet një program interaktiv në Java që i mundëson përdoruesit
+të gjenerojë statistika për notat e tij.
+Programi duhet të funksionojë në këtë mënyrë:
+1. Në fillim, programi pyet përdoruesin:
+   A dëshiron të vazhdosh? (po/jo)
+   - Përdoruesi mund të përgjigjet me çdo kombinim shkronjash,
+           si “po”, “Po”, “PO”, “pO”, “jo”, “Jo” etj.
+   - Nëse përgjigjja është "jo", programi përfundon me një mesazh ndalimi.
+   - Nëse përgjigjja është "po", programi vazhdon me hapat vijues.
+2. Kërkohet nga përdoruesi:
+   Vendos numrin e notave:
+   - Përdoruesi vendos një numër (p.sh. 5).
+3. Pastaj, programi pyet për secilën notë një nga një:
+   Vendos notën e 1:
+   Vendos notën e 2:
+   ...
+4. Pas vendosjes së të gjitha notave, programi duhet të llogarisë dhe të shfaqë:
+   - Totali i notave
+   - Mesatarja
+   - Nota maksimale
+   - Nota minimale
+
+   Shembull:
+   Totali: 25
+   Mesatarja: 6.8
+   Nota maksimale: 9
+   Nota minimale: 6
+
+5. Pas përfundimit, programi duhet të pyesë përsëri nëse përdoruesi dëshiron të vazhdojë
+me një grup tjetër notash:
+   Dëshiron të vazhdosh përsëri? (po/jo)
+   - Nëse “po” → rifillon procesi.
+   - Nëse “jo” → programi ndalet me një mesazh përfundimtar:
+     Programi përfundoi. Faleminderit!
+
+Shembull ekzekutimi:
+
+A dëshiron të vazhdosh? (po/jo)
+Po
+Vendos numrin e notave: 3
+Vendos notën e 1: 9
+Vendos notën e 2: 7
+Vendos notën e 3: 8
+
+Totali: 24
+Mesatarja: 8
+Nota maksimale: 9
+Nota minimale: 7
+
+Dëshiron të vazhdosh përsëri? (po/jo)
+JO
+Programi përfundoi. Faleminderit!
