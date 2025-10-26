@@ -1,4 +1,4 @@
-package group_02;
+package group_02.java_04;
 
 public class Main {
     public static void main(String[] args){
