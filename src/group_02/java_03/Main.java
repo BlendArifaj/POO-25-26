@@ -17,7 +17,7 @@ public class Main {
         std2.shtypDetajet();
 //        Student.shtypDetajet();
 
-        StudentUtil su = new StudentUtil(); // X
+//        StudentUtil su = new StudentUtil(); // X
         System.out.println("Nota: " + StudentUtil.nota(95));
 
 //        Math
@@ -56,6 +56,9 @@ class StudentUtil {
     static int random(int x, int y){
         double random = x + Math.random() * (y - x);
         return (int) Math.round(random);
+    }
+    private StudentUtil(){
+
     }
     static int nota(int piket){
         if(piket >= 90){

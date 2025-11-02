@@ -20,6 +20,8 @@ public class Main {
         System.out.println(Math.random()); // 0 - 1
         System.out.println(Math.round(12.433));
 
+//        MathUtil mu = new MathUtil();
+
         for(int i = 0; i < 10; i++){
             System.out.println(MathUtil.random(10, 20));
         }
@@ -59,6 +61,9 @@ class MathUtil {
         return result;
     }
 
+    private MathUtil(){
+
+    }
     static int random(int from, int to){
         double value = from + Math.random() * (to - from);
         return (int) value;

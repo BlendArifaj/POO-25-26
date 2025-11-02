@@ -1,0 +1,11 @@
+Menaxhimi i studenteve:
+Fakulteti ka studenta
+Studentat krijohen duke e vendosur emrin dhe mbiemrin
+    - Id gjenerohet ne menyre te rastesishme (numer me 5 shifra)
+    - Id duhet te jete unike
+Fakulteti mundet te pranoj studenta ose te largoje
+
+Programi mund te shtyp detajet e fakultetit:
+    - Emri
+    - Adresa
+    - Lista e studentave (id - emri - mbiemri)

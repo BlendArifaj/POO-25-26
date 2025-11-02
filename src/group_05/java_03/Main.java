@@ -15,10 +15,10 @@ public class Main {
         System.out.println("Nota: " + Student.nota(100));
 
         int nota = StudentUtil.nota();
-        StudentUtil su = new StudentUtil();
+//        StudentUtil su = new StudentUtil();
 
 //        Math
-//        Math math = new Math(); X
+//        Math math = new Math();
         System.out.println("Min: " + Math.min(10, 5));
         System.out.println("Max: " + Math.max(12, 15));
 //        Random, Round
@@ -61,6 +61,7 @@ class Student {
 }
 
 class StudentUtil{
+    private StudentUtil(){}
     static int nota(){
         return 10;
     }
