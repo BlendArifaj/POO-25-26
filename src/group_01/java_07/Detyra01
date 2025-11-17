@@ -1,0 +1,15 @@
+Krijoni një klase (superclass) të quajtur Person me atributet:
+- name
+- age
+Dhe metodat:
+ - introduce() -> shtyp: "Hi, I am ___ and I am ___ years old."
+ - details() -> shtyp detajet e objektit ne ekran,
+                se bashku me prezantimin (metoda introduce)
+
+Pastaj krijoni dy nenklasa (subclasses):
+- Teacher (atribute shtese: subject)
+- Student (atribute shtese: schoolName)
+
+
+Ne metoden main():
+- te perdoren metodat dhe klasat e krijuara
