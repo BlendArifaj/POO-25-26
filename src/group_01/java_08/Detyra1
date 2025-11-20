@@ -1,0 +1,26 @@
+1.	Të krijohet klasa Studenti me anëtarët: ID (që përmban numrin e ID-së së studentit),
+emri (që përmban emrin e studentit) dhe provimet që është ArrayList dhe përmban provimet
+të cilat janë paraqitur për një afat të provimeve nga studenti. Klasa Studenti përmban
+metodat: shtypDetajet(), e cila i shtyp te gjitha detajet e klasës ne ekran, provimetEArdhshme(),
+e cila i shtyp në ekran provimet te cilat nuk jenë mbajtur ende dhe metoda notaMesatare()
+qe e llogarite notën mesatare te provimeve te kaluara.
+
+Një provim duhet te përmbaj të dhënat si: Lenda (qe e përmban titullin e lendes),
+semestri (që e përmban numrin e semestrit ne te cilin ligjërohet lënda).
+
+Një provim i përfunduar duhet te përmbaj numrin e pikëve te arritura ne provim, kurse një provim
+i cili nuk është përfunduar ende përmban numrin e paraqitjes së atij provimi.
+
+Për llogaritjen e notes, në bazë të pikëve të realizuara ne provim, të krijohet klasa statike
+LlogariteNoten, e cila e përmban metodën getNota(int piket).
+
+Kushtet shtesë:
+•	Te gjithë anëtaret e klasës Studenti, duke përfshirë edhe konstruktorët, duhet te jene privat.
+•	Klasa statike LlogariteNoten nuk duhet të mundësoj krijimin e objekteve
+•	Veçoritë e provimeve duhet te jenë private dhe
+•	Inicializimi i anëtareve për të gjitha klasavt duhet te behet përmes konstruktorit.
+
+Ne programin Main.java, te krijohet një instancë e klasës Studenti qe i përmban 3 provime.
+Dy provime duhet te jene te përfunduara me 70 dhe 90 pikë, kurse provimi tjetër do te mbahet
+pas 2 jave dhe është paraqitur për here te pare nga studenti.
+
