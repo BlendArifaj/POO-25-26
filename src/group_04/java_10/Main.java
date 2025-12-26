@@ -27,8 +27,20 @@ public class Main {
 
 
 interface Drivable{
+    int NUMRI = 5;
     void accelerate();
     void brake();
+
+//    java 8+
+    default void method1(){
+        // logic ...
+    }
+    private void method2(){
+        // logic ...
+    }
+    static void method3(){
+
+    }
 }
 
 class Bicycle implements Drivable, Cloneable{

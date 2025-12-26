@@ -34,8 +34,23 @@ public class Main {
 }
 
 interface Driveable{
+    int numri = 5;
     void accelerate();
     void brake();
+
+//    java 8+
+    default void method1(){
+
+    }
+
+    private void method2(){
+
+    }
+
+    static void method3(){
+
+    }
+
 }
 
 class Bicycle implements Driveable, Cloneable{
