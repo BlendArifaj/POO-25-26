@@ -1,0 +1,10 @@
+This is a text from FileWriter
+This is an append string
+This is a text from FileWriter
+This is an append string
+This is a text from FileWriter
+This is an append string
+Another text
+This is a text from FileWriter
+This is an append string
+Another text
