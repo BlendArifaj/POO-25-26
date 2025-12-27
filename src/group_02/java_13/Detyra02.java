@@ -1,4 +1,7 @@
 package group_02.java_13;
+
+import java.io.FileWriter;
+
 /*
 Të shkruhet një program në gjuhën programuese Java, i cili i mundëson profesorit të ruaj
 në fajll notat e studenteve,të arritura në provim.
@@ -17,4 +20,66 @@ Kërkesat:
         p.sh: 150714-POO-10, 150713-KNK-9.
  */
 public class Detyra02 {
+}
+abstract class UserData{
+    private int id;
+    private String emri;
+
+    public UserData(int id, String emri) {
+        this.id = id;
+        this.emri = emri;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public String getEmri() {
+        return emri;
+    }
+
+    abstract void shtypDetajet();
+}
+
+class Nota{
+    int id;
+    String lenda;
+    int nota;
+
+    public Nota(int id, String lenda, int nota) {
+        this.id = id;
+        this.lenda = lenda;
+        this.nota = nota;
+    }
+
+    public String toFileLine(){
+        return this.id + "-" + this.lenda + "-" + this.nota + "\n";
+    }
+}
+interface NotimiInterface{
+    String FILE_NAME = "src/group_02/java_13/notat.txt";
+
+    void vendosNoten(Nota nota);
+}
+class Profesori extends UserData implements NotimiInterface{
+
+    public Profesori(int id, String emri) {
+        super(id, emri);
+    }
+
+    @Override
+    void shtypDetajet() {
+        System.out.println("Id: " + this.getId());
+        System.out.println("Emri: " + this.getEmri());
+    }
+
+    public void vendosNoten(Nota nota){
+        try{
+            FileWriter fw = new FileWriter(FILE_NAME, true);
+            fw.write(nota.toFileLine());
+            fw.close();
+        }catch (Exception e){
+            System.out.println("Ka ndodhur nje gabim: " + e.getMessage());
+        }
+    }
 }
